@@ -12,19 +12,13 @@ This repository contains solutions for basic Object-Oriented Programming (OOP) a
 **Objective:**  
 Create an `Account` class that can store user details and transfer money between accounts.
 
+
 **Features:**
 - Constructors (default, parameterized, copy)
 - Setters and getters
 - `printInfo()` to display account info
 - `TransferTo()` method to move funds between accounts
   
-**Sample Code:**
-```cpp
-Account a(1, "name", 1000);
-Account b(a);
-a.TransferTo(b, 200);
-a.printInfo(); // Balance = 800
-b.printInfo(); // Balance = 1200
 
 ---
 
@@ -68,7 +62,7 @@ for (int i = 0; i < 5; i++) {
 
 ---
 
-✅ Q3 – Circle and Point Classes with Area Calculation
+### ✅ Q3 – Circle and Point Classes with Area Calculation
 
 Objective:
 Create a Circle class that uses a Point object as its center, and implements a method to calculate the area of the circle.
